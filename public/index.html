@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/app.css">
+    <title>Data Table</title>
+</head>
+
+<body>
+    <div class="table-refresh" data-data-url="/data"></div>
+    <table class="table-refresh__table">
+        <thead>
+            <tr>
+                <td>Part Number</td>
+                <td>Company</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>34343</td>
+                <td>abc</td>
+            </tr>
+            <tr>
+                <td>34343</td>
+                <td>abc</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="table-refresh__options">
+        <span class="table-refresh__label">Last Update: Never</span>
+        <button type="button" class="table-refresh__button">
+            <i class="material-icons">refresh</i>
+        </button>
+
+
+    </div>
+    <script src="./src/app.js"></script>
+</body>
+
+</html>
